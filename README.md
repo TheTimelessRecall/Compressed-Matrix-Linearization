@@ -78,25 +78,6 @@ Run:
 
 ---
 
-## Example Usage (Diagonal Matrix)
-
-```
-Enter the matrix dimension: 4
-
-Enter element at (1,1): 10
-Enter element at (2,2): 20
-Enter element at (3,3): 30
-Enter element at (4,4): 40
-
-Matrix:
-10 0 0 0
-0 20 0 0
-0 0 30 0
-0 0 0 40
-```
-
----
-
 
 ## License
 
