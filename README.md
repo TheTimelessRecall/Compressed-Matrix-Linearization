@@ -52,13 +52,34 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 | 6 | **Toeplitz**         | `2n - 1`     | Constant values across diagonals |
 
 ---
+## The Formulas (Indexing)
 
-## Features
+This is the core of the project. The following formulas map the 2D coordinate `(i, j)` (1-indexed) to the 0-indexed position in the 1D array, `arr[]`.
 
-* Efficient 1D memory compression
-* Class-based design for each matrix type
-* `set(i,j)`, `get(i,j)`, and `display()` supported
-* Clean C++17 codebase
+### 1. Lower Triangular (i ≥ j)
+
+* **Formula (Row-Major):** `(i * (i - 1)) / 2 + (j - 1)`
+
+### 2. Upper Triangular (i ≤ j)
+
+* **Formula (Column-Major):** `(j * (j - 1)) / 2 + (i - 1)`
+
+### 3. Symmetric
+
+* **Formula:** Uses the Lower Triangular formula after ensuring the indices are in the lower region (`i ≥ j`).
+
+### 4. TriDiagonal (3n - 2 elements)
+
+* **Lower Diagonal (i = j + 1):** `i - 2`
+* **Main Diagonal (i = j):** `(n - 1) + i - 1`
+* **Upper Diagonal (i = j - 1):** `(2 * n - 1) + i - 1`
+
+### 5. Toeplitz (2n - 1 elements)
+
+Indexing is based on the difference `i - j`.
+
+* **Upper Diagonals (i ≤ j):** `j - i`
+* **Lower Diagonals (i > j):** `n + i - j - 1`
 
 ---
 
