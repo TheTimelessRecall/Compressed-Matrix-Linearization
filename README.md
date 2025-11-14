@@ -18,13 +18,6 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 
 ---
 
-## Blog Post
-
-For a detailed look at the formulas, diagrams, and complete code explanations for Diagonal, Tridiagonal, Symmetric, and Toeplitz matrices:
-
-[C++ Matrix Compression: Reduce Memory Usage by 90% with Smart 1D Storage (Medium)](https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de)
-
----
 
 ## Matrix Types
 
@@ -90,6 +83,13 @@ Run:
 
 ---
 
+## Further Reading
+
+For a detailed look at the formulas, diagrams, and complete code explanations for Diagonal, Tridiagonal, Symmetric, and Toeplitz matrices:
+
+[C++ Matrix Compression: Reduce Memory Usage by 90% with Smart 1D Storage (Medium)](https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de)
+
+---
 
 ## License
 
