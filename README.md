@@ -57,15 +57,6 @@ Each matrix is stored in a **single linear 1D array** instead of a 2D matrix, re
 
 ---
 
-## Features
-
-* Linearized array storage for each matrix
-* Clean class design (constructor, destructor, index mapping, set/get)
-* Display functions for visualization
-* Interactive console menu interface
-* Index mapping formulas implemented in code for clarity
-
----
 
 ## Terminal Preview
 
