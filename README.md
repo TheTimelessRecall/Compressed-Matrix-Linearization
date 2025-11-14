@@ -26,7 +26,7 @@ Each matrix is stored in a **single linear 1D array** instead of a 2D matrix, re
 
 ## Matrix Types Included
 
-| # | Matrix Type          | Storage Used | Description                           |
+|   | Matrix Type          | Storage Used | Description                           |
 | - | -------------------- | ------------ | ------------------------------------- |
 | 1 | **Diagonal**         | `n`          | Only the diagonal elements are stored |
 | 2 | **Lower Triangular** | `n(n+1)/2`   | Everything below & including diagonal |
