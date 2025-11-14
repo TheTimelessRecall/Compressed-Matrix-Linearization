@@ -1,5 +1,3 @@
-
-
 # Compressed-Matrix-Linearization
 
 **Compressed-Matrix-Linearization** provides multiple classical matrices implemented using **1D compressed storage**, significantly reducing memory usage while preserving full matrix functionality.
@@ -13,7 +11,7 @@ This project demonstrates:
 It includes six compressed matrix types:
 Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toeplitz.
 
-
+---
 
 ## Blog Post
 
@@ -35,7 +33,7 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
   </tr>
 </table>
 
-
+---
 
 ## Matrix Types
 
@@ -48,7 +46,7 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 | 5 | **Tridiagonal**      | `3n - 2`     | Only 3 diagonals stored          |
 | 6 | **Toeplitz**         | `2n - 1`     | Constant values across diagonals |
 
-
+---
 
 ## Features
 
@@ -57,8 +55,28 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 * `set(i,j)`, `get(i,j)`, and `display()` supported
 * Clean C++17 codebase
 
+---
 
+## Building
 
+### Prerequisites
+
+* g++ / clang++ (C++17)
+* Windows, Linux, or macOS
+
+### Build Command
+
+```
+g++ -std=c++17 tests/main.cpp src/*.cpp -I include -o matrix_app
+```
+
+Run:
+
+```
+./matrix_app
+```
+
+---
 
 ## Example Usage (Diagonal Matrix)
 
@@ -77,24 +95,10 @@ Matrix:
 0 0 0 40
 ```
 
-
-
-## Contributing
-
-Contributions are welcome. You may add:
-
-* Additional compressed matrix types
-* Matrix arithmetic (addition, multiplication, transpose)
-* File I/O support
-* Better CLI or UI
-
-Submit a pull request to collaborate.
-
+---
 
 
 ## License
 
 This project is released under the **MIT License**.
 See the `LICENSE` file for details.
-
-
