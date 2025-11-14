@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/TheTimelessRecall/Compressed-Matrix-Linearization/main/media/banner.png" 
+       alt="Compressed Matrix Linearization Banner" width="100%">
+</p>
+
 # Compressed-Matrix-Linearization
 
 **Compressed-Matrix-Linearization** provides multiple classical matrices implemented using **1D compressed storage**, significantly reducing memory usage while preserving full matrix functionality.
