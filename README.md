@@ -19,12 +19,8 @@
 ## What’s This Project?
 
 **Compressed-Matrix-Linearization** is a collection of **six matrix compression techniques** implemented in C++.
-
 Each matrix is stored in a **single linear 1D array** instead of a 2D matrix, reducing memory usage.
 
----
-
-##  Blog Post
 <table>
   <tr>
     <td width="30%">
