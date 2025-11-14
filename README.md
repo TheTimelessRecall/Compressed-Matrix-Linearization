@@ -20,23 +20,9 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 
 ## Blog Post
 
-<table>
-  <tr>
-    <td width="30%">
-      <a href="https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de" target="_blank">
-        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*s6Ux5MMiGHL7mPDCm6ouQg.jpeg"
-             width="100%" style="border-radius: 10px;" alt="Medium Article Thumbnail"/>
-      </a>
-    </td>
-    <td valign="top" style="padding-left: 20px;">
-      <a href="https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de" target="_blank">
-        <h3 style="margin-top: 0;">C++ Matrix Compression: Reduce Memory Usage by 90% with Smart 1D Storage</h3>
-      </a>
-      <p><strong>Jul 13, 2025</strong></p>
-      <p>Deep dive into Diagonal, Tridiagonal, Symmetric, and Toeplitz matrices, including formulas, diagrams, and full code explanations.</p>
-    </td>
-  </tr>
-</table>
+For a detailed look at the formulas, diagrams, and complete code explanations for Diagonal, Tridiagonal, Symmetric, and Toeplitz matrices:
+
+[C++ Matrix Compression: Reduce Memory Usage by 90% with Smart 1D Storage (Medium)](https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de)
 
 ---
 
