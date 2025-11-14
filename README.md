@@ -78,22 +78,6 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 ---
 
 
-## Build Instructions
-
-### Compile
-
-```bash
-g++ -std=c++17 main.cpp *.cpp -o matrix_app
-```
-
-### Run
-
-```bash
-./matrix_app
-```
-
----
-
 ## Example Usage (Diagonal Matrix)
 
 ```
