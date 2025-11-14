@@ -21,7 +21,7 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 
 ## Matrix Types
 
-| # | Type                 | Storage Size | Description                      |
+|   | Type                 | Storage Size | Description                      |
 | - | -------------------- | ------------ | -------------------------------- |
 | 1 | **Diagonal**         | `n`          | Stores only the primary diagonal |
 | 2 | **Lower Triangular** | `n(n+1)/2`   | Stores i ≥ j region              |
