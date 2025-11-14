@@ -24,6 +24,26 @@ Each matrix is stored in a **single linear 1D array** instead of a 2D matrix, re
 
 ---
 
+##  Blog Post
+<table>
+  <tr>
+    <td width="30%">
+      <a href="https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de" target="_blank">
+        <img src="https://miro.medium.com/v2/resize:fit:4800/format:webp/1*s6Ux5MMiGHL7mPDCm6ouQg.jpeg" width="100%" style="border-radius: 10px;" />
+      </a>
+    </td>
+    <td valign="top" style="padding-left: 20px;">
+      <a href="https://medium.com/@TimelessRecall/matrix-compression-in-c-slash-memory-usage-by-90-with-smart-1d-storage-048b7b05c8de" target="_blank">
+        <h3>C++ Matrix Compression: Reduce Memory Usage by 90% with Smart 1D Storage</h3>
+      </a>
+      <p><strong>Jul 13, 2025</strong></p>
+      <p>
+        In this post, I show how to compress Diagonal, Tri-diagonal, Toeplitz, and Symmetric matrices using efficient 1D representations.
+      </p>
+    </td>
+  </tr>
+</table>
+
 ## Matrix Types Included
 
 |   | Matrix Type          | Storage Used | Description                           |
@@ -94,18 +114,6 @@ Matrix:
 0 0 30 0
 0 0 0 40
 ```
-
----
-
-## Contributing
-
-Want to add:
-
-* New compressed formats
-* Arithmetic operations
-* File I/O
-
-Feel free to open a PR!
 
 ---
 
