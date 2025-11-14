@@ -2,24 +2,6 @@
 
 # Compressed-Matrix-Linearization
 
-<div align="center">
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg" width="170" alt="C++ Logo"/>
-
-**Efficient C++ implementations of classical matrices using linearized 1D storage.**
-
-</div>
-
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Language-C++17-blue?style=flat-square&logo=c%2B%2B"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Matrix%20Types-6-success?style=flat-square"></a>
-  <a href="#"><img src="https://img.shields.io/github/license/TheTimelessRecall/Compressed-Matrix-Linearization?style=flat-square&color=blueviolet"></a>
-</p>
-
----
-
-## Overview
-
 **Compressed-Matrix-Linearization** provides multiple classical matrices implemented using **1D compressed storage**, significantly reducing memory usage while preserving full matrix functionality.
 
 This project demonstrates:
@@ -31,7 +13,7 @@ This project demonstrates:
 It includes six compressed matrix types:
 Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toeplitz.
 
----
+
 
 ## Blog Post
 
@@ -53,7 +35,7 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
   </tr>
 </table>
 
----
+
 
 ## Matrix Types
 
@@ -66,7 +48,7 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 | 5 | **Tridiagonal**      | `3n - 2`     | Only 3 diagonals stored          |
 | 6 | **Toeplitz**         | `2n - 1`     | Constant values across diagonals |
 
----
+
 
 ## Features
 
@@ -75,7 +57,7 @@ Diagonal, Lower Triangular, Upper Triangular, Symmetric, Tridiagonal, and Toepli
 * `set(i,j)`, `get(i,j)`, and `display()` supported
 * Clean C++17 codebase
 
----
+
 
 
 ## Example Usage (Diagonal Matrix)
@@ -95,7 +77,7 @@ Matrix:
 0 0 0 40
 ```
 
----
+
 
 ## Contributing
 
@@ -108,11 +90,11 @@ Contributions are welcome. You may add:
 
 Submit a pull request to collaborate.
 
----
+
 
 ## License
 
 This project is released under the **MIT License**.
 See the `LICENSE` file for details.
 
----
+
